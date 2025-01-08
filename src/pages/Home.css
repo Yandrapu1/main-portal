@@ -1,0 +1,72 @@
+/* Container Styling */
+.home-container {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Light background for content */
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow */
+  }
+  
+  .home-container h1 {
+    color: #004aad; /* Blue text color */
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555555; /* Gray text */
+    margin-bottom: 2rem;
+  }
+  
+  /* Card Container */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Makes it responsive */
+    gap: 1.5rem;
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    flex: 1;
+    min-width: 250px; /* Ensures cards shrink for smaller screens */
+    max-width: 300px; /* Keeps cards uniform */
+    padding: 1.5rem;
+    background: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #004aad;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+
+  /* Card Logo Styling */
+.card-logo-software {
+    width: 100%; /* Adjusts to the card width */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+    border-radius: 10px; /* Matches the card's rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+  }
+  
