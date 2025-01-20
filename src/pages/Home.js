@@ -5,19 +5,30 @@ const Home = () => (
   <div className="home-container">
     <h1>Explore Categories</h1>
     <div className="card-container">
+
+
+
       {/* Roadmaps Section */}
       <div className="card">
+        
       <img 
           src="https://i.postimg.cc/pd3SdHtJ/core-img.jpg" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
-
         <h2>Core Engineering</h2>
         <p>Guides for mastering engineering fundamentals.</p>
-      </div>
-      <div className="card">
         
+        <button class="btn btn-light"> <a href="https://1card.ccbp.tech/">ViewAll</a></button>
+
+
+
+   </div>
+
+
+
+      
+      <div className="card">
         <img 
           src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
           alt="Software Development Logo" 
@@ -27,6 +38,14 @@ const Home = () => (
 
         <p>Paths to excel in software development.</p>
       </div>
+
+
+
+
+
+
+
+
       <div className="card">
       <img 
           src="https://i.postimg.cc/Njr3BfKb/Gate-Logo.jpg" 
@@ -76,7 +95,7 @@ const Home = () => (
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/ncYxCpNZ/Video-Tutorials-logo.webp" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
@@ -87,7 +106,7 @@ const Home = () => (
       {/* Mentorship & Events Section */}
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/t4ZzB4yG/senior-logo.png" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
@@ -96,7 +115,7 @@ const Home = () => (
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/5NM1467n/Expert-Talks-logo.webp" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
@@ -105,7 +124,7 @@ const Home = () => (
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/6Q1ttcgv/Workshops-logo.jpg" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
@@ -114,7 +133,7 @@ const Home = () => (
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/Njdwkbgz/Hackathons-logo.png" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
