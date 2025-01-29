@@ -6,8 +6,6 @@ const Home = () => (
     <h1>Explore Categories</h1>
     <div className="card-container">
 
-
-
       {/* Roadmaps Section */}
       <div className="card">
         
@@ -16,44 +14,40 @@ const Home = () => (
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
-        <h2>Core Engineering</h2>
+        <h2>Core <br></br>
+          Engineering</h2>
+        
         <p>Guides for mastering engineering fundamentals.</p>
         
-        <button class="btn btn-light"> <a href="https://1card.ccbp.tech/">ViewAll</a></button>
-
-
+         <a href="https://coreengineering.ccbp.tech/" class="btn">ViewAll</a>
 
    </div>
-
-
-
-      
+ 
       <div className="card">
         <img 
-          src="https://i.postimg.cc/HxVD89Z0/software-logo.png" 
+          src="https://i.postimg.cc/zDxYppFb/downloadpp.png" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
       <h2>Software Development</h2>
 
         <p>Paths to excel in software development.</p>
+        <a href="https://softwaredevelop.ccbp.tech/" class="btn">View All</a>
+
       </div>
-
-
-
-
-
-
 
 
       <div className="card">
       <img 
-          src="https://i.postimg.cc/Njr3BfKb/Gate-Logo.jpg" 
+          src="https://i.postimg.cc/fTbYc8dz/hhgg.jpg" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
         <h2>GATE Preparation</h2>
         <p>Resources for cracking the GATE exam.</p>
+         <a href="https://gateexam.ccbp.tech/" class="btn">ViewAll</a>
+
+
       </div>
       <div className="card">
       <img 
@@ -63,6 +57,9 @@ const Home = () => (
         />
         <h2>Specialized Fields</h2>
         <p>Focused guides for niche areas of study.</p>
+     
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
 
       {/* Resources Section */}
@@ -74,6 +71,9 @@ const Home = () => (
         />
         <h2>Placement Prep</h2>
         <p>Interview questions and coding challenges.</p>
+      
+       <a href="https://softwaredevelop.ccbp.tech/ " class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -83,6 +83,8 @@ const Home = () => (
         />
         <h2>Academic Materials</h2>
         <p>Lecture notes and e-books for your studies.</p>
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -92,6 +94,8 @@ const Home = () => (
         />
         <h2>Free Courses</h2>
         <p>Skill-building courses with certifications.</p>
+       <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -101,6 +105,9 @@ const Home = () => (
         />
         <h2>Video Tutorials</h2>
         <p>Comprehensive video guides on key topics.</p>
+      
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
 
       {/* Mentorship & Events Section */}
@@ -112,6 +119,8 @@ const Home = () => (
         />
         <h2>Connect with Seniors</h2>
         <p>Guidance from experienced peers.</p>
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -121,6 +130,9 @@ const Home = () => (
         />
         <h2>Expert Talks</h2>
         <p>Sessions from industry professionals.</p>
+      
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -130,6 +142,9 @@ const Home = () => (
         />
         <h2>Workshops</h2>
         <p>Skill-enhancing academic and technical workshops.</p>
+      
+        <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
       <div className="card">
       <img 
@@ -138,7 +153,12 @@ const Home = () => (
           className="card-logo-software" 
         />
         <h2>Hackathons</h2>
+      
+      
         <p>Compete and showcase your innovative ideas.</p>
+      
+         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+
       </div>
     </div>
   </div>

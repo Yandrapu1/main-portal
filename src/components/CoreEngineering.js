@@ -1,4 +1,4 @@
-//updattd code 
+
 import React from "react";
 
 const CoreEngineering = () => {
