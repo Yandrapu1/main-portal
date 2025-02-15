@@ -58,21 +58,21 @@ const Home = () => (
         <h2>Specialized Fields</h2>
         <p>Focused guides for niche areas of study.</p>
      
-         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+         <a href="https://specialized.ccbp.tech" class="btn">ViewAll</a>
 
       </div>
 
       {/* Resources Section */}
       <div className="card">
       <img 
-          src="https://i.postimg.cc/76LXPmBD/placement-logo.png" 
+          src="https://i.postimg.cc/nVBjsWtt/wallpaper.webp" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
-        <h2>Placement Prep</h2>
+        <h2>Placement <br></br> Prep</h2>
         <p>Interview questions and coding challenges.</p>
       
-       <a href="https://softwaredevelop.ccbp.tech/ " class="btn">ViewAll</a>
+       <a href="https://placementcol.ccbp.tech " class="btn">ViewAll</a>
 
       </div>
       <div className="card">
@@ -83,30 +83,30 @@ const Home = () => (
         />
         <h2>Academic Materials</h2>
         <p>Lecture notes and e-books for your studies.</p>
-         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+         <a href="https://academic.ccbp.tech" class="btn">ViewAll</a>
 
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/HLCHc75V/online-cources-logo.avif" 
+          src="https://i.postimg.cc/RVv3kdn1/download.jpg" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
-        <h2>Free Courses</h2>
+        <h2>Free  <br></br>Courses</h2>
         <p>Skill-building courses with certifications.</p>
-       <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+       <a href="https://freecou.ccbp.tech" class="btn">ViewAll</a>
 
       </div>
       <div className="card">
       <img 
-          src="https://i.postimg.cc/ncYxCpNZ/Video-Tutorials-logo.webp" 
+          src="https://i.postimg.cc/zv7GFVgd/vio22.jpg" 
           alt="Software Development Logo" 
           className="card-logo-software" 
         />
-        <h2>Video Tutorials</h2>
+        <h2>Video  <br></br>Tutorials</h2>
         <p>Comprehensive video guides on key topics.</p>
       
-         <a href="https://softwaredevelop.ccbp.tech/" class="btn">ViewAll</a>
+         <a href="https://videotutorials.ccbp.tech/" class="btn">ViewAll</a>
 
       </div>
 

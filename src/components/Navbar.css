@@ -1,0 +1,84 @@
+/* Navbar Styling */
+.navbar {
+  background: url('https://your-image-url.com/image.png') no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 1.5rem 2rem; /* Increased padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 120px; /* Increased height */
+  position: relative;
+}
+
+
+/* Logo Styling */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 100px; /* Increase logo size */
+  height: 100px; /* Keep it circular */
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  object-fit: cover;
+}
+
+/* Center Content */
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.navbar-center h1 {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.navbar-subtitle {
+  font-size: 1.5rem; /* Increased subtitle size */
+  font-weight: 500;
+  color: #ffea00;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+}
+
+/* Navigation Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem; /* Increased font size */
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  padding: 12px 18px; /* Increased padding */
+  border-radius: 5px;
+}
+
+.navbar-links li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffea00;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
