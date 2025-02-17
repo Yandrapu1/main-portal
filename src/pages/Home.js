@@ -72,7 +72,7 @@ const Home = () => (
         <h2>Placement <br></br> Prep</h2>
         <p>Interview questions and coding challenges.</p>
       
-       <a href="https://placementcol.ccbp.tech " class="btn">ViewAll</a>
+       <a href="https://placemeinner.ccbp.tech/ " class="btn">ViewAll</a>
 
       </div>
       <div className="card">
