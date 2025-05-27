@@ -78,9 +78,9 @@ Please see CONTRIBUTING.md for guidelines.
 🙋‍♂️ Author
 Yandrapu Pradeep (Prady)
 
-💼 LinkedIn
+💼 LinkedIn [https://www.linkedin.com/in/yandrapu-pradeep/]
 
 🌐 Portfolio
 
-📫 pradeepyandrapu@gmail.com
+📫 yandrapupradeep@gmail.com
 
