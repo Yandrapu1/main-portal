@@ -76,7 +76,7 @@ npm start
 Contributions, issues, and feature requests are welcome!
 Please see CONTRIBUTING.md for guidelines.
 🙋‍♂️ Author
-Yandrapu Pradeep (Prady)
+Yandrapu Pradeep
 
 💼 LinkedIn [https://www.linkedin.com/in/yandrapu-pradeep/]
 
